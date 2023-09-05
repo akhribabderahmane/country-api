@@ -14,7 +14,7 @@ function App() {
      <Navbar></Navbar>
      <AllcountriesContextProvider>
       <Routes>
-        <Route path="/country-api" element={<MainPage />} />
+        <Route path="/" element={<MainPage />} />
         <Route  path="/countryDetails" element={<CountryDetails />}/>
       </Routes>
      </AllcountriesContextProvider>
