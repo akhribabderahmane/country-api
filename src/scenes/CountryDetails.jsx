@@ -48,7 +48,7 @@ const CountryDetails = () => {
   return (
     <section className="pt-4">
       <div className="md:mx-16 mx-8 mt-4">
-        <Link to='*'>
+        <Link to='/'>
         <button
           className=" flex flex-row gap-1 items-center font-semibold text-xl py-2 px-6 shadow-lg rounded-lg"
           style={{
